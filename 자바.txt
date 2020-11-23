@@ -1,0 +1,127 @@
+파이썬
+import keyword
+dir( ---- ) < 매소드 보기
+print = 12314
+int = 1234
+del print
+del int
+
+하고 나면 다시 사용가능
+
+print(keyword.kwlist)
+
+============================
+
+1. 아나콘다 다운로드 
+
+2. 후에 쥬피터 노트북 클릭
+
+3. new - python3 클릭후 진행
+
+=============================
+
+오라클
+
+dldyddnjs20@gmail.com
+Yungwon95!
+
+
+==============================
+변수 타입 (기본형)
+값 - 문자 - char 1바이트
+    - 숫자 - 정수 - byte , short(2바이트), int(4바이트), long(4바이트)
+             - 실수 - float(4바이트) , double(8바이트)
+		boolearn 
+
+참조형 변수
+String, class, 함수, array
+
+연산자
+단항 = - +
+이항 = *- %
+삼항 =  0 0 0 : 0 0
+
+조건문 , 반복문
+
+배열
+
+=============================
+
+iv = instanse values - 메소드
+cv = class values - class 메소드
+lv = local values
+
+
+생성자 = 초기화시켜주는 메소드
+
+iv
+static > cv
+
+===============================
+class class.name {
+
+iv int x,y
+   string str
+   float
+
+cv static int
+    // string 
+
+생성자
+
+class.name() {}
+
+class.name(int x,int y) {
+	this.x = x
+	this.y = y
+	this() ==>> 생성자
+	this. ==>> 참조형변수
+}
+
+methord (int x , int y ) <- Lv
+
+  
+}
+
+============================
+맴버 = 변수 (iv,cv) + method
+
+this() 생성자  <== 자기자신
+super() 생성자 <== 조상
+
+this. <=== 참조변수 (iv, lv 구분하기위해)
+super. <=== 참조변수 (조상의 iv,cv 참조)
+
+============================
+packeyge _____ =>> ____ = directory
+
+______ class  class_name {
+	
+	괄호안에 들어오면 private(class_name 내부에서만 사용가능)  int iv1
+	 		defult int iv2
+			preteted int iv3 다른 패키지에서 class_name 상속 받을때
+			publice int iv4 다쓸수있음
+
+			method()   ===> 캡슐화
+				system.out.println(iv1)
+			setmethod(int iv1) <= local value
+				this.iv1 =  iv1
+	
+	}
+______ <= 에는 public (제어자), defult(접근제어자) 만 들어올수있음
+	형용사 , 꾸며주는역활
+다형성 
+
+Tv t= new Smart Tv();
+Tv => 조상 class SmartTv => 자손 class
+
+추상화 ==> 인스턴스를 생성할 수 없음 
+abstract method(선언만 되어있고 {} method(int a)가 단 1개 있으면 
+추상 class obstract class class_name
+
+interface는
+1. 추상 method 집합이다.
+2. iv , cv 가질수없다 only 상수만
+3. class 사용하지만 같은 문법으로 사용된
+	inter face interface _name
+4. interface는 상속이 된다
