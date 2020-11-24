@@ -125,3 +125,31 @@ interface는
 3. class 사용하지만 같은 문법으로 사용된
 	inter face interface _name
 4. interface는 상속이 된다
+
+
+======================
+
+		List    Arraylist Stack Linkedlist 
+collections	Set    hashset treeset
+		Map   hashmap treemap
+
+CRUD
+1 Creation <-----> instance <- class
+2 Read 검색/탐색 <-----> contains,containAll
+3 Update <-----> add
+4 Delete <-----> remove
+
+
+
+=======================
+Tree Set
+
+전위 순회 - root - left - right
+중위 순회 - left - root - right
+후위 순회 - left - right - root
+레벨 순회 - 왼쪽 오른쪽
+
+		root
+				<==== 트리셋 구조
+	left		right  
+
