@@ -36,6 +36,10 @@ public class tietanic{
 				count += 1;
 				lst.remove(lst.size()-1);
 
+			}else {
+				count+=1;
+				lst.remove(0);
+				lst.remove(lst.size()-1);
 			}// end-if
 
 		}
