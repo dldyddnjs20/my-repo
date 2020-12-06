@@ -37,11 +37,11 @@ public class ReadLineFile {
 			}
 			System.out.println("영어 단어를 입력하세요");
 			System.out.println(h.get(in.next()));
-			Random random = new Random();
-			System.out.println(h.keySet());
+//			System.out.println(h.keySet());
 			Object[] keys = h.keySet().toArray();
 			String[] randomKey = new String[5];
-			
+			System.out.println("=======================");
+			System.out.println("=========문제 보기========");
 			for(int i=0; i<5; i++) {
 				randomKey[i] = (String) keys[new Random().nextInt(keys.length)];
 				System.out.println(h.get(randomKey[i]));
@@ -50,14 +50,16 @@ public class ReadLineFile {
 //			for(int i=0; i<5; i++) {
 //				System.out.println(randomKey[i]);
 //			}
+			System.out.println("=========정답을 입력하세요========");
 			for(int i=0; i<5; i++) {
 				if (randomKey[i].equals(in.next())) {
-					System.out.println("정답");
+					System.out.println("O 정답");
 				}
 				else {
-					System.out.println("오답");
+					System.out.println("X 오답");
 				}
 			}
+			System.out.println("=======================");
 			System.out.println("문제끝");
 			
 			
