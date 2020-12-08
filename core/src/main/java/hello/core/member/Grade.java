@@ -5,5 +5,4 @@ public enum Grade {
 	VIP,
 	VVIP,
 	NOMAL
-
 }

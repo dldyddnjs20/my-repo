@@ -1,7 +1,7 @@
 package hello.core.member;
 
 public class Member {
-	private long id;
+	private Long id;
 	private String name;
 	private Grade grade;
 	
@@ -16,7 +16,7 @@ public class Member {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
