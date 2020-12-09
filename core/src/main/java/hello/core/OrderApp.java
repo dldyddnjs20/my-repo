@@ -23,9 +23,9 @@ public class OrderApp{
 		memberService.join(member2);
 		
 		
-		Order order = orderService.CreateOrder(memberId, "가죽장갑", 25000);
+		Order order = orderService.CreateOrder(memberId, "base", 25000);
 		System.out.println("order=="+order);
-		Order order2 = orderService.CreateOrder(2L, "가죽장갑", 25000);
+		Order order2 = orderService.CreateOrder(2L, "base", 25000);
 		System.out.println("order2=="+order2);
 	}
 
