@@ -1,0 +1,10 @@
+https://start.spring.io/
+에서 스프링웹, 댐리프 추가 하고 설치
+
+https://www.jetbrains.com/ko-kr/idea/download/download-thanks.html?platform=windows&code=IIC
+아이들다운
+
+c/ 디렉토리 이름/ 여기에 압축풀기 <<<< 스프링파일
+
+후에 안되면 
+환경변수에서 JAVA_HOME (자바깔린곳) 추가하고 껏다 키고 실행
