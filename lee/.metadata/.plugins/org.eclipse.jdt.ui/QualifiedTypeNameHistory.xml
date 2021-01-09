@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.bob.please.member.service.MemberService"/>
+    <fullyQualifiedTypeName name="main.java.choco.member.dto.MemberDto"/>
+    <fullyQualifiedTypeName name="main.java.choco.member.dao.MemberDao"/>
+</qualifiedTypeNameHistroy>
